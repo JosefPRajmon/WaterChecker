@@ -30,6 +30,7 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+            <Button Text="health connect" Clicked="HealthConnectPermision_Button"/>
         </VerticalStackLayout>
     </ScrollView>
 
