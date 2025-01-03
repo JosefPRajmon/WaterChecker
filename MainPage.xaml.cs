@@ -16,7 +16,7 @@ namespace WaterChecker
         private void OnCounterClicked(object sender, EventArgs e)
         {
 #if ANDROID
-
+            HealthConnectControler.InsertHydratacion();
 #endif
         }
 
